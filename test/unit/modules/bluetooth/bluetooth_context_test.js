@@ -1,7 +1,7 @@
 'use strict';
 
 /* global MockNavigatorSettings */
-requireApp('bluetooth/shared/test/unit/mocks/mock_navigator_moz_settings.js');
+requireApp('bluetooth/shared/unit_test_mocks/mock_navigator_moz_settings.js');
 
 suite('BluetoothContext', function() {
   var realSettings;

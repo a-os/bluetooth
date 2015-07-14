@@ -1,9 +1,9 @@
 /* global MocksHelper, MockL10n, Pairview */
 'use strict';
 
-require('/shared/test/unit/mocks/mocks_helper.js');
+require('/shared/unit_test_mocks/mocks_helper.js');
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('bluetooth/test/unit/mock_pair_manager.js');
 
 function switchReadOnlyProperty(originObject, propName, targetObj) {

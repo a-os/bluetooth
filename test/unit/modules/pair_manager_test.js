@@ -3,12 +3,12 @@
 
 'use strict';
 
-require('/shared/test/unit/mocks/mocks_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_apps.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_bluetooth.js');
+require('/shared/unit_test_mocks/mocks_helper.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_apps.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_bluetooth.js');
 
 function switchReadOnlyProperty(originObject, propName, targetObj) {
   Object.defineProperty(originObject, propName, {

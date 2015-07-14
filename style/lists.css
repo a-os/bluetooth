@@ -178,7 +178,7 @@ ul li a.bb-button {
  * Boolean inputs
  */
 
-/* custom styles for boolean inputs (see /shared/style/switches.css) */
+/* custom styles for boolean inputs (see /shared/switches/switches.css) */
 ul li label {
   text-transform: none;
 }

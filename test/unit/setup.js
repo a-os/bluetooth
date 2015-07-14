@@ -1,7 +1,7 @@
 /* global requirejs */
 'use strict';
 
-require('/shared/test/unit/mocks/mocks_helper.js');
+require('/shared/unit_test_mocks/mocks_helper.js');
 requireApp('bluetooth/js/vendor/alameda.js', (function() {
   var contextId = 0;
   var baseConfig = {
