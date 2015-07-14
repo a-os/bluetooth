@@ -1,0 +1,33 @@
+{
+  "name": "bluetooth",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alivedise/bluetooth",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "shared",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "action_menu": "git@github.com:alivedise/action_menu.git",
+    "async_storage": "git@github.com:alivedise/async_storage.git",
+    "bluetooth_helper": "git@github.com:alivedise/bluetooth_helper.git",
+    "buttons": "git@github.com:alivedise/buttons.git",
+    "config": "git@github.com:alivedise/config.git",
+    "component_utils": "git@github.com:alivedise/component_utils.git",
+    "confirm": "git@github.com:alivedise/confirm.git",
+    "font_size_utils": "git@github.com:alivedise/font_size_utils.git",
+    "gaia-header": "git@github.com:alivedise/gaia-header.git",
+    "gaia-icons": "git@github.com:alivedise/gaia-icons.git",
+    "gaia-theme": "git@github.com:alivedise/gaia-theme.git",
+    "gaia_subheader": "git@github.com:alivedise/gaia_subheader.git",
+    "headers": "git@github.com:alivedise/headers.git",
+    "input_areas": "git@github.com:alivedise/input_areas.git",
+    "l10n": "git@github.com:alivedise/l10n.git",
+    "progress_activity": "git@github.com:alivedise/progress_activity.git",
+    "switches": "git@github.com:alivedise/switches.git"
+  }
+}
