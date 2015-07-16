@@ -2,11 +2,14 @@
 
 /* global require, exports, dump */
 var utils = require('utils');
+var sh = new utils.Commander('sh');
 
 var BluetoothAppBuilder = function() {
 };
 
 BluetoothAppBuilder.prototype.execute = function(options) {
+  sh.initPath(utils.getEnvPath());
+  sh.run(['-c', 'cd ' + options.APP_DIR + ' && bower install']);
   var optimize = 'optimize=' +
     (options.GAIA_OPTIMIZE === '1' ? 'uglify2' : 'none');
   var configFile = utils.getFile(options.APP_DIR, 'build',
